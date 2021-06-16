@@ -1,0 +1,33 @@
+https://www.figma.com/file/4MmnDGYR0xWgVLpxUf5hJy/Pulse-(Copy)
+
+color: #ffffff;
+color: #0d0d0d;
+color: #4b4b4b;
+color: #6b6b6b;
+color: #646464;
+color: #555555;
+background-color: #c70101;
+background-color: #f6f6f6;
+
+font-family: 'Museo Sans Cyrl';
+
+font-size: 16px;
+font-size: 18px;
+font-size: 19px;
+font-size: 20px;
+font-size: 30px;
+font-size: 36px;
+font-size: 42px;
+font-weight: 700;
+
+font-size: 12px;
+font-size: 14px;
+font-size: 16px;
+font-size: 18px;
+font-size: 20px;
+font-size: 24px;
+font-weight: 500;
+
+font-size: 14px;
+font-weight: 300;
+

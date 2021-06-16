@@ -1,0 +1,196 @@
+@media (max-width: 1200px) {
+    .promo {
+        padding: 21px 30px 73px 30px;
+    }
+    .consultation {
+        min-height: 640px;
+        padding: 80px 0 80px 40px; 
+       .title {
+           font-size: 30px;
+       }
+       &__descr {
+           margin-top: 60px;
+       }
+    }
+    .carousel {
+        .prev {
+            left: 8px;
+        }
+        .next {
+            right: 8px;
+        }
+    }
+}
+
+@media (max-width: 991px) {
+    .promo {
+        min-height: 600px;
+        padding: 21px 30px 40px 30px;
+    }
+    .header {
+        &__logo {
+            width: 220px;
+        }
+        &__official {
+            span {
+                font-weight: 500;
+                margin-top: 15px;
+            }
+        }
+        &__phone {
+            font-weight: 500;
+            font-size: 16px;
+        }
+    }
+    .button {
+        &_header {
+            width: 140px;
+            height: 25px;
+            font-size: 11px;
+        } 
+        &_main {
+            width: 250px;
+        }
+    }
+    .features {
+        &__item {
+            max-width: 220px;
+        }
+    }
+    .carousel {
+        &__inner {
+            img {
+                width: 80%;
+                max-width: 750px;
+            }
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .header {
+        &__official {
+            &_sm-hidden{
+                display: none;
+            }
+            &_sm-visible {
+                align-self: start;
+                display: block;
+                text-align: left;
+                font-size: 10px;
+                span {
+                    margin-top: 4px;
+                    font-size: 12px;
+                    font-weight: 300;
+                }
+            }
+        }
+    }
+    .promo {
+        &__wrapper {
+            margin-top: 15px;
+        }
+        &__header {
+            margin-top: 60px;
+            font-size: 38px;
+        }
+        &__subheader {
+            margin-top: 10px;
+            font-size: 18px;
+        }
+    }
+    .features {
+        padding: 50px 0 50px 0;
+        &__items {
+            margin-top: 0px;
+            flex-wrap: wrap;
+        }
+        &__item {
+            margin: 50px 7px 0 7px;
+            max-width: 250px;
+        }
+    }
+    .consultation {
+        min-height: 570px;
+        padding: 60px 0 60px 35px; 
+        &__descr {
+            margin-top: 40px;
+        }
+    }
+    .carousel {
+        padding: 65px 0;
+        .prev, .next {
+            display: none;
+        }
+    }
+}
+
+@media (max-width: 575px) {  
+    .header {
+        &__logo {
+            width: 160px;
+        }
+        &__phone {
+            font-size: 12px;
+        }
+        &__official {
+            &_sm-visible {
+                align-self: center;
+                text-align: center;
+                span {
+                    display:inline-block;
+                }
+            }
+        }
+    }
+    .button {
+        &_header {
+            width: 110px;
+            height: 22px;
+            font-size: 9px;
+        }
+    }
+    .promo {
+        padding: 20px 10px 40px 10px;
+        &__wrapper {
+            align-items: center;
+        }
+        &__header {
+            margin-top: 40px;
+            font-size: 34px;
+            line-height: 1.2;
+            text-align: center;
+        }
+        &__subheader {
+            line-height: 1.4;
+            text-align: center;
+        }
+        &__icons {
+            width: 100%;
+            justify-content: space-around;
+        }
+        &__icon {
+            font-size: 12px;
+        }
+    }
+    .features {
+        padding: 40px 0 40px 0;
+        &__item {
+            margin: 40px 10px 0 10px;
+        }
+    }
+    .consultation {
+        min-height: 520px;
+        padding: 45px 15px;
+        .title_left {
+            font-size: 20px;
+        }
+        &__descr {
+            font-size: 18px;
+        }
+    }
+    .feed-form {
+        width: 90%;
+        max-width: 300px;
+    }
+}
