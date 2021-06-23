@@ -1,0 +1,10 @@
+.review {
+    padding-bottom: 70px;
+    &__wrapper {
+        &_xs-visible {
+            display: none;
+        }
+        margin-top: 70px;
+    }
+
+}
