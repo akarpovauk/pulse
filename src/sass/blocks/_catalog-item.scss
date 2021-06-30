@@ -64,6 +64,7 @@
             left: 50%;
             transform: translateX(calc(-50% - 18px));
         }
+        @include link_hover;
         &:hover {
             color: $maincolor;
         }
@@ -71,8 +72,7 @@
     hr {
         margin-top: 19px;
         margin-bottom: 21px;
-/*         background-color: #e8e8e8; */
-        background: red;
+        background-color: #e8e8e8;
         height: 1px;
     }
     &__footer {

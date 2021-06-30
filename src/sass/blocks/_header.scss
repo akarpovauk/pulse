@@ -31,10 +31,7 @@
         line-height: 1.2;
         font-weight: 700;
         color: #ffffff;
-        &:hover {
-            color: #ffffff;
-            text-decoration: none;
-        }
+        @include phone_hover;
     }
     &__contacts {
         display: flex;

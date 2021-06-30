@@ -1,4 +1,5 @@
 @import 'base/variables';
+@import 'base/mixins';
 * {
     font-family: 'Museo Sans', sans-serif;
 }
@@ -20,4 +21,6 @@
 @import 'blocks/catalog-item';
 @import 'blocks/review';
 @import 'blocks/review-item';
+@import 'blocks/footer';
+@import 'blocks/modal';
 @import 'base/media';

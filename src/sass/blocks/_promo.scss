@@ -54,10 +54,7 @@
             text-decoration: underline;
             text-transform: uppercase;
             color: #ffffff;
-            &:hover {
-                text-decoration: none;
-            }
-
+            @include link_hover;
         }
             
     }

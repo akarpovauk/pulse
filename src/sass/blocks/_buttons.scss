@@ -6,6 +6,7 @@
     text-transform: uppercase;
     color: #ffffff;
     font-weight: 500;
+    @include btn_hover;
     &_header {
         margin-top: 6px;
         width: 150px;
@@ -23,10 +24,10 @@
         height: 55px;
         font-size: 16px;
     }
-    &_buy {
+    &_mini {
         width: 131px;
         height: 40px;
         font-size: 14px;
     }
-
+    
 }

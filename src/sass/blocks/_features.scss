@@ -34,9 +34,8 @@
             color: #ff0000;
             text-decoration: underline;
             text-transform: uppercase;
-            &:hover {
-                text-decoration: none;
-            }
+            @include link_hover;
+
         }
     }
 }

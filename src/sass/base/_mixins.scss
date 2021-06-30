@@ -1,0 +1,40 @@
+@mixin btn_hover {
+    transition: 0.5s all;
+    &:hover {
+       background-image: linear-gradient(0deg, $maincolor 0%, #ff2600d2 100%);
+       box-shadow: 2px 2px 20px #3b3230d2;
+    } 
+}
+
+@mixin tab_hover {
+    transition: 0.5s all;
+    &:hover {
+        box-shadow: 3px 3px 20px $maincolor;
+        border: none;
+    }
+}
+
+@mixin phone_hover {
+    transition: 0.5s all;
+    &:hover {
+        color: #ffffff;
+        text-decoration: underline;
+    }
+}
+
+@mixin link_hover {
+    transition: 0.5s all;
+    &:hover {
+        text-decoration: none;
+    }
+}
+
+@mixin social-item_hover {
+    transition: 0.5s all;
+    &:hover {
+        box-shadow: 2px 1px 20px 1px $maincolor inset, 1px 1px 10px 1px #ffffff inset;
+        border: 3px solid #ffffff;
+        border-radius: 35%;
+    }
+}
+    

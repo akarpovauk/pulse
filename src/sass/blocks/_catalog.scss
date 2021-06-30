@@ -22,11 +22,7 @@
         text-align: center;
         transform: skewX(-25deg);
         cursor: pointer;
-        transition: 0.5s;
-        &:hover {
-            box-shadow: 3px 3px 20px $maincolor;
-            border: none;
-        }
+        @include tab_hover;
         div {
             transform: skewX(25deg);
         }

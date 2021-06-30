@@ -23,7 +23,9 @@
                 </div>
                 <div class="header__contacts">
                     <a href="tel:+74999228974" class="header__phone">+7 (499) 922-89-74</a>
-                    <button class="button button_header">заказать звонок</button>
+                    <button data-modal="consultation" class="button button_header">
+                        заказать звонок
+                    </button>
                 </div>
             </header>
             
@@ -54,7 +56,9 @@
                     </div>
                 </div>
 
-                <button class="button button_main">заказать кОНСУЛЬТАЦИЮ</button>
+                <button data-modal="consultation" class="button button_main">
+                    заказать кОНСУЛЬТАЦИЮ
+                </button>
                 <div class="promo__link">
                     или
                     <a href="#">ПЕРЕЙТИ В КАТАЛОГ</a>
@@ -176,7 +180,7 @@
                             <div class="catalog-item__old-price">4 750 руб.</div>
                             <div class="catalog-item__ptrice">4 500 руб.</div>
                         </div>
-                        <button class="button button_buy">КУПИТЬ</button>
+                        <button class="button button_mini">КУПИТЬ</button>
                     </div>
                 </div>
 
@@ -202,7 +206,7 @@
                             <div class="catalog-item__old-price">6 990 руб.</div>
                             <div class="catalog-item__ptrice">6 641 руб.</div>
                         </div>
-                        <button class="button button_buy">КУПИТЬ</button>
+                        <button class="button button_mini">КУПИТЬ</button>
                     </div>
                 </div>
 
@@ -228,7 +232,7 @@
                             <div class="catalog-item__old-price">7 390 руб.</div>
                             <div class="catalog-item__ptrice">7 021 руб.</div>
                         </div>
-                        <button class="button button_buy">КУПИТЬ</button>
+                        <button class="button button_mini">КУПИТЬ</button>
                     </div>
                 </div>
 
@@ -254,7 +258,7 @@
                             <div class="catalog-item__old-price">4 750 руб.</div>
                             <div class="catalog-item__ptrice">4 500 руб.</div>
                         </div>
-                        <button class="button button_buy">КУПИТЬ</button>
+                        <button class="button button_mini">КУПИТЬ</button>
                     </div>
                 </div>
 
@@ -280,7 +284,7 @@
                             <div class="catalog-item__old-price">6 990 руб.</div>
                             <div class="catalog-item__ptrice">6 641 руб.</div>
                         </div>
-                        <button class="button button_buy">КУПИТЬ</button>
+                        <button class="button button_mini">КУПИТЬ</button>
                     </div>
                 </div>
 
@@ -306,7 +310,7 @@
                             <div class="catalog-item__old-price">7 390 руб.</div>
                             <div class="catalog-item__ptrice">7 021 руб.</div>
                         </div>
-                        <button class="button button_buy">КУПИТЬ</button>
+                        <button class="button button_mini">КУПИТЬ</button>
                     </div>
                 </div>            
             </div>
@@ -334,7 +338,7 @@
                             <div class="catalog-item__old-price">4 750 руб.</div>
                             <div class="catalog-item__ptrice">4 500 руб.</div>
                         </div>
-                        <button class="button button_buy">КУПИТЬ</button>
+                        <button class="button button_mini">КУПИТЬ</button>
                     </div>
                 </div>
             </div>
@@ -362,7 +366,7 @@
                             <div class="catalog-item__old-price">4 750 руб.</div>
                             <div class="catalog-item__ptrice">4 500 руб.</div>
                         </div>
-                        <button class="button button_buy">КУПИТЬ</button>
+                        <button class="button button_mini">КУПИТЬ</button>
                     </div>
                 </div>
 
@@ -388,7 +392,7 @@
                             <div class="catalog-item__old-price">4 750 руб.</div>
                             <div class="catalog-item__ptrice">4 500 руб.</div>
                         </div>
-                        <button class="button button_buy">КУПИТЬ</button>
+                        <button class="button button_mini">КУПИТЬ</button>
                     </div>
                 </div>
             </div>           
@@ -491,8 +495,83 @@
         </div>
     </section>
 
+    <footer class="footer">
+        <div class="footer__info footer__info_xs-visible">
+            <div class="footer__contacts">
+                <address class="footer__address">Москва, Мясницкий проезд, д.3с1</address>
+                <a href="tel:84999228974" class="footer__phone">8 (499) 922-89-74</a>
+            </div>
+            <div class="footer__social">
+                <a href="#" class="footer__social-item">
+                    <img src="icons/social/facebook.svg" alt="facebook">
+                </a>
+                <a href="#" class="footer__social-item">
+                    <img src="icons/social/instagram.svg" alt="instagram">
+                </a>
+                <a href="#" class="footer__social-item">
+                    <img src="icons/social/pinterest.svg" alt="pinterest">
+                </a>
+            </div>
+        </div>
+    
+        <div class="footer__map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2244.4304812014866!2d37.64480195074292!3d55.7683949804621!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54a636edcd2ad%3A0x4c2ca101e2c8c617!2sMyasnitskiy%20Proyezd%2C%204%2F3%2C%20Moskva%2C%20Russia%2C%20107078!5e0!3m2!1sen!2suk!4v1624616390023!5m2!1sen!2suk" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+        <div class="footer__info footer__info_xs-hidden">
+            <address class="footer__address">Москва, Мясницкий проезд, д.3с1</address>
+            <a href="tel:84999228974" class="footer__phone">8 (499) 922-89-74</a>
+            <div class="footer__social">
+                <a href="#" class="footer__social-item">
+                    <img src="icons/social/facebook.svg" alt="facebook">
+                </a>
+                <a href="#" class="footer__social-item">
+                    <img src="icons/social/instagram.svg" alt="instagram">
+                </a>
+                <a href="#" class="footer__social-item">
+                    <img src="icons/social/pinterest.svg" alt="pinterest">
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <div class="overlay">
+        
+        <div class="modal" id="consultation">
+            <div class="modal__close">&times;</div>
+            <div class="modal__subtitle">Просто заполните форму заявки</div>
+            <div class="modal__descr">и мы перезвоним вам в течении 10 минут</div>
+            <form class="feed-form feed-form_mt25" action="#">
+                <input required name="name" placeholder="Ваше имя" type="text">
+                <input required name="phone" placeholder="Ваш телефон" type="number">
+                <input required name="email" placeholder="Ваш E-mail" type="email">
+                <button class="button button_submit">заказать кОНСУЛЬТАЦИЮ</button>
+            </form>
+        </div>
+
+        <div class="modal" id="order">
+            <div class="modal__close">&times;</div>
+            <div class="modal__subtitle">Ваш заказ:</div>
+            <div class="modal__descr">Пульсометр Polar FT1</div>
+            <form class="feed-form feed-form_mt25" action="#">
+                <input required name="name" placeholder="Ваше имя" type="text">
+                <input required name="phone" placeholder="Ваш телефон" type="number">
+                <input required name="email" placeholder="Ваш E-mail" type="email">
+                <button class="button button_submit">Купить</button>
+            </form>
+        </div>
+
+        <div class="modal" id="thanks">
+            <div class="modal__close">&times;</div>
+            <div class="modal__subtitle">Спасибо за вашу заявку!</div>
+            <div class="modal__descr">Наш менеджер свяжется с вами в ближайшее время!</div>
+        </div>
+
+
+    </div>
+
+
     <script src="js/jquery.min.js"></script>
     <script src="js/tiny-slider.js"></script>
-    <script src="js/sript.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>
