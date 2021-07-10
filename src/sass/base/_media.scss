@@ -218,6 +218,13 @@
                 }
             }
         }
+        &__icon {
+            &_animated {
+                &:hover {
+                    animation-play-state: running;
+                }
+            }
+        }
     }
     .consultation {
         min-height: 570px;
@@ -296,6 +303,9 @@
         width: 350px;
         padding: 30px 30px;
         min-height: 350px;
+        &#thanks {
+            min-height: 140px;
+        }
     }
     .feed-form {
         &_mt25 {

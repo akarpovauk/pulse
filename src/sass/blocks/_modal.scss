@@ -24,6 +24,9 @@
         color: $maincolor;
         cursor: pointer;
     }
+    &#thanks {
+        min-height: 140px;
+    }
     &__subtitle {
         font-size: 18px;
         line-height: 1.2;
