@@ -254,9 +254,11 @@
         &__descr {
             font-size: 13px;
         }
-        &__list {
-            li {
-                font-size: 13px;
+        &__back {
+            ul {
+                li {
+                    font-size: 13px;
+                }
             }
         }
     }
@@ -387,6 +389,9 @@
         max-width: 320px;
         padding: 50px 18px 20px 18px;
         min-height: 350px;
+        &#thanks {
+            min-height: 140px;
+        }
         &__subtitle {
             font-size: 17px;
         }
@@ -440,7 +445,7 @@
     .catalog-item {
         padding: 15px;
         &__link {
-            &_back {
+            &_backward {
                 transform: translateX(-50%);
             }
         }
