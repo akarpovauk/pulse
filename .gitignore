@@ -23,3 +23,5 @@ yarn-error.log*
 src/mailer/smart.php
 
 misc/
+
+dist/mailer/smart.php
